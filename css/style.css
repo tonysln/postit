@@ -10,14 +10,36 @@ body {
 }
 
 header nav {
+  display: flex;
   background-color: white;
   width: 100%;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.search {
+  vertical-align: center;
+  flex-grow: 1;
+}
+
+#searchInput + button{
+  margin-left: 0px;
 }
 
 main .content {
   background-color: white;
+  width: 80%;
   max-width: 780px;
   margin: 0 auto;
+}
+
+img ~ span {
+  font-weight: bold;
+}
+
+.post {
+  ;
 }
 
 .card-wrapper {
@@ -60,4 +82,22 @@ main .content {
   border-radius: 4px;
   margin-bottom: 1rem;
   cursor: pointer;
+}
+
+#profilePic {
+  content:url("http://www.metsatoll.ee/images/promo/sm_logoring.gif");
+  width:40px;
+}
+#homePic {
+  content:url("https://www.creativefabrica.com/wp-content/uploads/2020/03/08/post-it-icon-Graphics-3404537-1.jpg");
+  width:60px;
+}
+
+.post-author-img {
+  content:url("https://t3.ftcdn.net/jpg/00/64/67/80/240_F_64678017_zUpiZFjj04cnLri7oADnyMH0XBYyQghG.jpg");
+  width:40px;
+  height:40px;
+}
+.post-img {
+  max-width: 100%;
 }
