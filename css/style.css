@@ -29,17 +29,27 @@ header nav {
 
 main .content {
   background-color: white;
-  width: 80%;
-  max-width: 780px;
+  width: 60%;
+  max-width: 60%;
   margin: 0 auto;
+  padding: 20px 0 20px 0;
+
+}
+main .content .post {
+  vertical-align: middle;
+  max-width: 80%;
+  margin: 0 auto 10px auto;
+  box-shadow: 0px 0px 10px 0 #888888;
+  border-radius: 10px;
 }
 
 img ~ span {
   font-weight: bold;
+  float: right;
+  margin: 10px;
 }
-
-.post {
-  ;
+.post-content {
+  margin-left: 5px;
 }
 
 .card-wrapper {
@@ -87,6 +97,7 @@ img ~ span {
 #profilePic {
   content:url("http://www.metsatoll.ee/images/promo/sm_logoring.gif");
   width:40px;
+  border-radius: 10px;
 }
 #homePic {
   content:url("https://www.creativefabrica.com/wp-content/uploads/2020/03/08/post-it-icon-Graphics-3404537-1.jpg");
@@ -97,7 +108,18 @@ img ~ span {
   content:url("https://t3.ftcdn.net/jpg/00/64/67/80/240_F_64678017_zUpiZFjj04cnLri7oADnyMH0XBYyQghG.jpg");
   width:40px;
   height:40px;
+  margin: 5px;
 }
 .post-img {
-  max-width: 100%;
+  width: 100%;
+}
+.like {
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.like-button {
+  content:url("https://png.pngtree.com/png-vector/20190223/ourlarge/pngtree-vector-like-icon-png-image_695769.jpg");
+  max-height: 20px;
+  border-radius: 20px;
 }
