@@ -61,30 +61,38 @@ img ~ span {
 
 .card {
   background-color: #ffffff;
-  text-align: center;
-  padding: 5rem;
   box-shadow: 1px 1px 10px 2px rgba(31, 31, 31, 0.1);
 }
 
-.card a,
-.card a:hover {
+.card-content {
+  padding: 1rem 6rem 3rem 6rem;
+  text-align: center;
+}
+
+#login_logo {
+  width: 120px;
+  margin: 1rem 0 0 0.5rem;
+}
+
+.card-content a,
+.card-content a:hover {
   display: block;
   color: rgb(68, 168, 202);
   margin-bottom: 1rem;
 }
 
-.card > p,
-.card > h1,
-.card > h2 {
+.card-content > p,
+.card-content > h1,
+.card-content > h2 {
   margin-bottom: 2rem;
 }
 
-.card > form input {
+.card-content > form input {
   padding: 0.7rem 2rem 0.7rem 1rem;
   margin-bottom: 0.8rem;
 }
 
-.card > form button {
+.card-content > form button {
   padding: 0.6rem 1.2rem 0.6rem 1.2rem;
   color: #ffffff;
   background: #12578c;
